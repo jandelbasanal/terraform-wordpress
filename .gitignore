@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+*.tfplan
+*.override.tf
+*.override.tf.json
+.terraformrc
+terraform.rc
+
+# Ansible
+inventory/
+*.inventory
+.vault_pass.txt
+group_vars/*/vault.yml
+host_vars/*/vault.yml
+secrets/
+
+# Sensitive files
+*.pem
+*.key
+*.env
+*.secret
+.git
